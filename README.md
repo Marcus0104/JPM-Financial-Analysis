@@ -36,6 +36,12 @@ As compared to the other data anaytics projects I've worked on, I decided to bro
 
 The bulk of my work can be found in the Python Notebooks within the concoction of repository files. I made use of Pandas, Matplotlib and Seaborn as my data visualisation of choice, followed by deploying an ARIMA (Auto Regressive Integrated Moving Average) Model to predict stock price movement 10 years into the future. The nature of model used (which I'm sure there are plenty others) is highly dependent on the dataset utilised during the project, which was a univariate time series dataset. ARIMA came naturally as a tool for price forecasting. 
 
+### IWD Data Viz 
+![image](https://github.com/Marcus0104/JPMorgan-Hack-2023/blob/main/original_predicted_viz.png)
+
+### TAN Data Viz 
+![image](https://github.com/Marcus0104/JPMorgan-Hack-2023/blob/main/original_predicted_viz_TAN.png)
+
 ### Where do I start? 
 For starters with or without financial/investing knowledge, I have divided the proposed portfolio into 3 distinct categories: BlueMarket (Blue Chip/Dividends Market), HighRisk, and ValueStocks. The notebooks can be found under the label [Stock]_PriceXTime.ipynb together with the respective datasets in CSV format. 
 
