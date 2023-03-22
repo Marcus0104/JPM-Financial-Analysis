@@ -33,7 +33,7 @@ As compared to the other data anaytics projects I've worked on, I decided to bro
 
 The bulk of my work can be found in the Python Notebooks within the concoction of repository files. I made use of Pandas, Matplotlib and Seaborn as my data visualisation of choice, followed by deploying an ARIMA (Auto Regressive Integrated Moving Average) Model to predict stock price movement 10 years into the future. The nature of model used (which I'm sure there are plenty others) is highly dependent on the dataset utilised during the project, which was a univariate time series dataset. ARIMA came naturally as a tool for price forecasting. 
 
-### What do I reference to? 
+### Where do I start? 
 For starters with or without financial/investing knowledge, I have divided the proposed portfolio into 3 distinct categories: BlueMarket (Blue Chip/Dividends Market), HighRisk, and ValueStocks. The notebooks can be found under the label [Stock]_PriceXTime.ipynb together with the respective datasets in CSV format. 
 
 Additional documents can be found in the Forecast and Invesco QQQ folders. The Forecast folder simply contains predictions done from the current year 2023 up till 2033. These dates are not explicitly defined as indexes, but the ordering follows a chronological order (top to bottom). The Invesco QQQ folder contains my data analysis and machine learning when I first got my hands dirty on the Invesco QQQ ETF through countless trial and errors and familiarising myself with syntax. 
@@ -50,9 +50,9 @@ Do feel free to provide me criticism, feedback or comments!
 
 
 ### Acknowledgements
-Shoutout to my superb team and their talent
-https://www.linkedin.com/in/james-xfa/
-https://www.linkedin.com/in/lucas-yap-81a819163/
-https://www.linkedin.com/in/hillman-hung-a0b0a8256/
+Shoutout to my peak performance team: 
+ Markup : * https://www.linkedin.com/in/james-xfa/
+          * https://www.linkedin.com/in/lucas-yap-81a819163/
+          * https://www.linkedin.com/in/hillman-hung-a0b0a8256/
 
 
