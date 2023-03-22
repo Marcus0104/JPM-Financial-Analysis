@@ -29,7 +29,10 @@ For example, if one were to predict 10 years worth of price movement (%), one wo
 
 As a proficient Data Analyst solely based on experience in a generic domain, it was intuitive for me to make use of Python's Data Analytics libraries in a code-driven manner. 
 
-As compared to the other data anaytics projects I've worked on, I decided to broaden my focus - covering a range of data science domains like data preprocessing, data engineering and machine learning model deployment. This allowed me to have a full and deep appreciation of the data science hierarchy, by tackling both the Machine Learning Engineer and Data Analyst roles for this project. 
+As compared to the other data anaytics projects I've worked on, I decided to broaden my focus - covering a range of data science domains like data preprocessing, data engineering and machine learning model deployment. This allowed me to have a full and deep appreciation of the data science hierarchy, by experiencing both the Machine Learning Engineer and Data Analyst roles for this project. 
+
+![image](https://user-images.githubusercontent.com/77159089/227025036-30b0bc54-d884-4a2d-9ed2-f4beef78a28a.png)
+
 
 The bulk of my work can be found in the Python Notebooks within the concoction of repository files. I made use of Pandas, Matplotlib and Seaborn as my data visualisation of choice, followed by deploying an ARIMA (Auto Regressive Integrated Moving Average) Model to predict stock price movement 10 years into the future. The nature of model used (which I'm sure there are plenty others) is highly dependent on the dataset utilised during the project, which was a univariate time series dataset. ARIMA came naturally as a tool for price forecasting. 
 
@@ -50,7 +53,8 @@ Do feel free to provide me criticism, feedback or comments!
 
 
 ### Acknowledgements
-Shoutout to my peak performance team: 
+Shoutout to my peak perf. team: 
+Thank you for sharing this opportunity with me! 
  * https://www.linkedin.com/in/james-xfa/
  * https://www.linkedin.com/in/lucas-yap-81a819163/
  * https://www.linkedin.com/in/hillman-hung-a0b0a8256/
