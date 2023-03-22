@@ -51,8 +51,8 @@ Do feel free to provide me criticism, feedback or comments!
 
 ### Acknowledgements
 Shoutout to my peak performance team: 
- Markup : * https://www.linkedin.com/in/james-xfa/
-          * https://www.linkedin.com/in/lucas-yap-81a819163/
-          * https://www.linkedin.com/in/hillman-hung-a0b0a8256/
+ * https://www.linkedin.com/in/james-xfa/
+ * https://www.linkedin.com/in/lucas-yap-81a819163/
+ * https://www.linkedin.com/in/hillman-hung-a0b0a8256/
 
 
