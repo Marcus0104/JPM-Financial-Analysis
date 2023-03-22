@@ -1,5 +1,5 @@
 
-# JPMorgan Private Banking Challenge using ARIMA Time Series Forecasting
+# JPMorgan Private Banking Challenge
 
 ### Problem Scoping
 
