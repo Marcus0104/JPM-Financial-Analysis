@@ -17,7 +17,7 @@ In 2022, the global rate-hiking cycle became increasingly synchronized as centra
 
 Data is key when analysing and understanding financial trends especially in today's volatile and multifaceted market. There is greater emphasis placed on data-driven models especially when forecasting stock/asset-class price movements. 
 
-For example, if one were to predict 10 years worth of price movement (%), one would need to obtain at least 10 years worth of past historical data to train a Machine Learning Model well enough to predict the values well enough. By well enough it means not going too far off from the the actual values, as compromising on this very fact would cost alot in companies. 
+For example, if one were to predict 10 years worth of price movement (%), one would need to obtain at least 10 years worth of past historical data to train a Machine Learning Model well enough to predict the values well enough. By well enough it means not going too far off from the the actual values, as compromising on this very fact would cost alot in companies. We also realise that the dataset 
 
 ### An Aspiring Data Scientist's Approach 
 
@@ -43,7 +43,8 @@ For starters with or without financial/investing knowledge, I have divided the p
 
 Additional documents can be found in the Forecast and Invesco QQQ folders. The Forecast folder simply contains predictions done from the current year 2023 up till 2033. These dates are not explicitly defined as indexes, but the ordering follows a chronological order (top to bottom). The Invesco QQQ folder contains my data analysis and machine learning when I first got my hands dirty on the Invesco QQQ ETF through countless trial and errors and familiarising myself with syntax. 
 
-Justification to our methodology and strategy: https://github.com/Marcus0104/JPMorgan-Hack-2023/blob/main/UNIX_Capital_Exe_Summary.pdf
+Justification to our methodology and strategy:
+https://github.com/Marcus0104/JPMorgan-Hack-2023/blob/main/UNIX_Capital_Exe_Summary.pdf
 
 ### Closing Remarks
 
