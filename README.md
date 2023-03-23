@@ -1,13 +1,7 @@
 
 # JPMorgan Private Banking Challenge
 
-### Problem Scoping
-
-Assume that your team of client advisors is part of a fictitious company (which is based on your registered 
-team name), responsible for providing portfolio management and advisory services for clients across a variety 
-of asset classes. The client's background details and expectations will be made available to all teams. 
-
-### Proposal  
+### Problem Statement 
 Part I
 
 The COVID-19 pandemic precipitated an abrupt end to many of the catalysts of global growth over the past decade, and underpins a paradigm shift in portfolio asset allocation. Positive equity-bond correlation and a simultaneous drawdown in both asset classes in 2022 have encouraged investors to seek additional sources 
@@ -41,6 +35,8 @@ The bulk of my work can be found in the Python Notebooks within the concoction o
 
 ### TAN Data Viz 
 ![image](https://github.com/Marcus0104/JPMorgan-Hack-2023/blob/main/original_predicted_viz_TAN.png)
+
+The ARIMA model can be better trained by using a proper train test split, allowing for better accuracy and prediction. The predicted model could mimic the general trend of price movement, however it was unable to determine the peak rise and fall in price movement. 
 
 ### Where do I start? 
 For starters with or without financial/investing knowledge, I have divided the proposed portfolio into 3 distinct categories: BlueMarket (Blue Chip/Dividends Market), HighRisk, and ValueStocks. The notebooks can be found under the label [Stock]_PriceXTime.ipynb together with the respective datasets in CSV format. 
