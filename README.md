@@ -43,7 +43,7 @@ For starters with or without financial/investing knowledge, I have divided the p
 
 Additional documents can be found in the Forecast and Invesco QQQ folders. The Forecast folder simply contains predictions done from the current year 2023 up till 2033. These dates are not explicitly defined as indexes, but the ordering follows a chronological order (top to bottom). The Invesco QQQ folder contains my data analysis and machine learning when I first got my hands dirty on the Invesco QQQ ETF through countless trial and errors and familiarising myself with syntax. 
 
-Justification to our methodology and strategy:
+Justification to our methodology and strategy: <br>
 https://github.com/Marcus0104/JPMorgan-Hack-2023/blob/main/UNIX_Capital_Exe_Summary.pdf
 
 ### Closing Remarks
