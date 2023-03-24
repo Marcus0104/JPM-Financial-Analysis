@@ -68,6 +68,8 @@ for param in parameters_list:
         best_param = param
     results.append([param, model.aic])
 ```
+![image](https://github.com/Marcus0104/JPMorgan-Hack-2023/blob/main/Best%20Model%20Approximation.png)
+
 ### TAN Price Test Prediction & Analysis
 ```python
 test = target.loc['1/1/2015':'1/1/2023']
@@ -98,7 +100,8 @@ export = best_model.forecast(steps=future)
 export.to_csv(r'TAN_PriceXTime.csv', index=True, header=True)
 ```
 
-The ARIMA model can be better trained by using a proper train test split, allowing for better accuracy and prediction. The predicted model could mimic the general trend of price movement, however it was unable to determine the peak rise and fall in price movement. With time, the model accuracy can definitely be improved. 
+Ontop of the parameter optimisation, the ARIMA model can be better trained by using a proper train test split. <br> 
+With time, the model accuracy can definitely be improved, allowing for better model accuracy.
 
 ### Where do I start? 
 For starters with or without financial/investing knowledge, I have divided the proposed portfolio into 3 distinct categories: BlueMarket (Blue Chip/Dividends Market), HighRisk, and ValueStocks. The notebooks can be found under the label [Stock]_PriceXTime.ipynb together with the respective datasets in CSV format. 
