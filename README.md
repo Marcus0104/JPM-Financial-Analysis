@@ -1,11 +1,11 @@
 
 # JPMorgan Private Banking Challenge 
 #### Author: Marcus Ng Junhao  
-#### UNIX Capital Team: 
-* Lucas Yap - Portfolio Analyst 
-* James - Research Analyst
-* Hillman - Quantitative Analyst
-* Marcus - Data Scientist 
+### UNIX Capital Team: 
+* [Lucas Yap - Portfolio Analyst](https://www.linkedin.com/in/lucas-yap-81a819163/)
+* [James Teo - Research Analyst](https://www.linkedin.com/in/james-xfa/)
+* [Hillman Hung - Quantitative Analyst](https://www.linkedin.com/in/hillman-hung-a0b0a8256/)
+* [Marcus Ng - Data Scientist](https://www.linkedin.com/in/marcus-ng-0104e/)
 
 # Table of contents
 1. [Introduction](#introduction)
@@ -14,7 +14,6 @@
 4. [Parameter Optimisation and Model Deployment](#machinelearning) 
 5. [Where do I start?](#begin) 
 6. [Closing Remarks](#end) 
-7. [Acknowledgements](#acknowledgements) 
 
 ### Introduction <a name="introduction"></a>
 Part I
@@ -135,13 +134,3 @@ Do feel free to provide me criticism, feedback or comments!
 ### 🔗 Connect: LinkedIn 
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marcus-ng-0104e/)
-
-
-### Acknowledgements <a name="acknowledgements"></a>
-Shoutout to my peak performance team: 
-Thank you for sharing this opportunity with me! 
- * James Teo: https://www.linkedin.com/in/james-xfa/
- * Lucas Yap: https://www.linkedin.com/in/lucas-yap-81a819163/
- * Hillman Hung: https://www.linkedin.com/in/hillman-hung-a0b0a8256/
-
-
