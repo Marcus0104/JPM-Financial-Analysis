@@ -19,6 +19,8 @@ Data is key when analysing and understanding financial trends especially in toda
 
 For example, if one were to predict 10 years worth of price movement (%), one would need to obtain at least 10 years worth of past historical data to train a Machine Learning Model well enough to predict the values well enough. By well enough it means not going too far off from the the actual values, as compromising on this very fact would cost alot in companies. We also realise that the dataset 
 
+I have broken down the project for each of these stocks into 3 distinct segments: Data Engineering, Data Analytics and Visualisation, building the ARIMA Machine Learning Model, and finally deploying the model to predict stock price movement for each equity in the next 10 years. 
+
 ### An Aspiring Data Scientist's Approach 
 
 As a proficient Data Analyst solely based on experience in a generic domain, it was intuitive for me to make use of Python's Data Analytics libraries in a code-driven manner. 
@@ -30,13 +32,10 @@ As compared to the other data anaytics projects I've worked on, I decided to bro
 
 The bulk of my work can be found in the Python Notebooks within the concoction of repository files. I made use of Pandas, Matplotlib and Seaborn as my data visualisation of choice, followed by deploying an ARIMA (Auto Regressive Integrated Moving Average) Model to predict stock price movement 10 years into the future. The nature of model used (which I'm sure there are plenty others) is highly dependent on the dataset utilised during the project, which was a univariate time series dataset. ARIMA came naturally as a tool for price forecasting. 
 
-### IWD Data Viz 
-![image](https://github.com/Marcus0104/JPMorgan-Hack-2023/blob/main/original_predicted_viz.png)
-
-### TAN Data Viz 
+### TAN Data Visualisation
 ![image](https://github.com/Marcus0104/JPMorgan-Hack-2023/blob/main/original_predicted_viz_TAN.png)
 
-The ARIMA model can be better trained by using a proper train test split, allowing for better accuracy and prediction. The predicted model could mimic the general trend of price movement, however it was unable to determine the peak rise and fall in price movement. 
+The ARIMA model can be better trained by using a proper train test split, allowing for better accuracy and prediction. The predicted model could mimic the general trend of price movement, however it was unable to determine the peak rise and fall in price movement. With time, the model accuracy can definitely be improved. 
 
 ### Where do I start? 
 For starters with or without financial/investing knowledge, I have divided the proposed portfolio into 3 distinct categories: BlueMarket (Blue Chip/Dividends Market), HighRisk, and ValueStocks. The notebooks can be found under the label [Stock]_PriceXTime.ipynb together with the respective datasets in CSV format. 
