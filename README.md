@@ -32,8 +32,71 @@ As compared to the other data anaytics projects I've worked on, I decided to bro
 
 The bulk of my work can be found in the Python Notebooks within the concoction of repository files. I made use of Pandas, Matplotlib and Seaborn as my data visualisation of choice, followed by deploying an ARIMA (Auto Regressive Integrated Moving Average) Model to predict stock price movement 10 years into the future. The nature of model used (which I'm sure there are plenty others) is highly dependent on the dataset utilised during the project, which was a univariate time series dataset. ARIMA came naturally as a tool for price forecasting. 
 
-### TAN Data Visualisation
+### Approximation of Parameters and Building our Model
+We use the Akaike information criterion (AIC) is a mathematical method for evaluating how well a model fits the data it was generated from.
+```python
+from itertools import product
+import warnings
+warnings.filterwarnings('ignore')
+
+# Initial approximation of parameters
+Qs = range(0, 2)
+qs = range(0, 3)
+Ps = range(0, 3)
+ps = range(0, 3)
+D=1
+d=1
+parameters = product(ps, qs, Ps, Qs)
+parameters_list = list(parameters)
+len(parameters_list)
+
+# Model Selection
+results = []
+best_aic = float("inf")
+warnings.filterwarnings('ignore')
+for param in parameters_list:
+    try:
+        model=sm.tsa.statespace.SARIMAX(target['Price Movement(%)'], order=(param[0], d, param[1]), 
+                                        seasonal_order=(param[2], D, param[3], 12)).fit(disp=-1)
+    except ValueError:
+        print('wrong parameters:', param)
+        continue
+    aic = model.aic
+    if aic < best_aic:
+        best_model = model
+        best_aic = aic
+        best_param = param
+    results.append([param, model.aic])
+```
+### TAN Price Test Prediction & Analysis
+```python
+test = target.loc['1/1/2015':'1/1/2023']
+test['forecast'] = best_model.predict()
+plt.figure(figsize=(15,7))
+test['Price Movement(%)'].plot()
+test['forecast'].plot(color='r', ls='--', label='Predicted Price Movement')
+plt.legend()
+plt.title('Price Movement, By Months')
+plt.ylabel('Price Movement(%)')
+plt.show()
+```
 ![image](https://github.com/Marcus0104/JPMorgan-Hack-2023/blob/main/original_predicted_viz_TAN.png)
+
+### A Step into the Future
+```python
+# format: 1/3/2023 DAY/MONTH/YEAR to be converted into a datetime object 
+startdate = dt.date(int(2023), int(3), int(1))
+
+date_list = [] # concatenate at the bottom of the dataset 
+while startdate < dt.date(int(2033), int(3), int(1)):
+    startdate += timedelta(days=31)
+    formatted_date = startdate.strftime("%d-%m-%Y")
+    date_list.append(formatted_date) 
+print(date_list)
+future = len(date_list) 
+export = best_model.forecast(steps=future)
+export.to_csv(r'TAN_PriceXTime.csv', index=True, header=True)
+```
 
 The ARIMA model can be better trained by using a proper train test split, allowing for better accuracy and prediction. The predicted model could mimic the general trend of price movement, however it was unable to determine the peak rise and fall in price movement. With time, the model accuracy can definitely be improved. 
 
