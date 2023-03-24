@@ -1,7 +1,7 @@
 
 # JPMorgan Private Banking Challenge 
 #### Author: Marcus Ng Junhao  
-### UNIX CAPITAL Team
+### UNIX CAPITAL
 * [Lucas Yap - Portfolio Analyst](https://www.linkedin.com/in/lucas-yap-81a819163/)
 * [James Teo - Research Analyst](https://www.linkedin.com/in/james-xfa/)
 * [Hillman Hung - Quantitative Analyst](https://www.linkedin.com/in/hillman-hung-a0b0a8256/)
