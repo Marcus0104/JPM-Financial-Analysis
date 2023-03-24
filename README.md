@@ -18,7 +18,7 @@
 ## Introduction <a name="introduction"></a>
 #### Part I
 
-Sean's Background Information and Investment Portfolio was provided to our team as a document. 
+Sean's Background Information and Investment Portfolio were provided to our team. 
 
 The COVID-19 pandemic precipitated an abrupt end to many of the catalysts of global growth over the past decade, and underpins a paradigm shift in portfolio asset allocation. Positive equity-bond correlation and a simultaneous drawdown in both asset classes in 2022 have encouraged investors to seek additional sources 
 of yield, capital appreciation, and diversification. 
