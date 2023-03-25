@@ -129,7 +129,7 @@ https://github.com/Marcus0104/JPMorgan-Hack-2023/blob/main/UNIX_Capital_Exe_Summ
 
 ## Closing Remarks <a name="end"></a>
 
-A disclaimer that most of the work done is a work in progress. Due to the tight time budget for the project, most of the code produced was written with the end goal of predicting multiple outcomes, with less of an emphasis toward documentation and thorough Data Visualisation/Analytics. I believe that my work will be able to value-add to anyone interested in pursuing a similar hackathon/challenge in the future, and that it would speak for itself. 
+Due to the tight time budget for the project, most of the code produced was written with the end goal of predicting multiple outcomes, with less of an emphasis toward documentation and thorough Data Visualisation/Analytics. I believe that my work will be able to value-add to anyone interested in pursuing a similar hackathon/challenge in the future, and that it would speak for itself. 
 Do feel free to provide me criticism, feedback or comments! 
 ## 🔗 Connect with me!
 
