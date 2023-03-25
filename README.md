@@ -49,7 +49,7 @@ As compared to the other data anaytics projects I've worked on, I decided to bro
 The bulk of my work can be found in the Python Notebooks within the concoction of repository files. I made use of Pandas, Matplotlib and Seaborn as my data visualisation of choice, followed by deploying an ARIMA (Auto Regressive Integrated Moving Average) Model to predict stock price movement 10 years into the future. The nature of model used (which I'm sure there are plenty others) is highly dependent on the dataset utilised during the project, which was a univariate time series dataset. ARIMA came naturally as a tool for price forecasting. 
 
 ## Approximation of Parameters and Model Deployment <a name="machinelearning"></a>
-We use the Akaike information criterion (AIC) is a mathematical method for evaluating how well a model fits the data it was generated from.
+We use the Akaike information criterion (AIC) as a mathematical method for evaluating how well a model fits the data it was generated from.
 ```python
 from itertools import product
 import warnings
