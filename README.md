@@ -86,7 +86,7 @@ for param in parameters_list:
 ```
 ![image](https://github.com/Marcus0104/JPMorgan-Hack-2023/blob/main/Best%20Model%20Approximation.png)
 
-## TAN Price Test Prediction & Analysis
+## TAN Price Training Prediction & Analysis
 ```python
 test = target.loc['1/1/2015':'1/1/2023']
 test['forecast'] = best_model.predict()
