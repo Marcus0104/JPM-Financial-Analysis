@@ -18,12 +18,12 @@
 ## Introduction <a name="introduction"></a>
 #### Part I
 
-Sean's Background Information and Investment Portfolio were provided to our team. 
+The client's Background Information and Investment Portfolio were provided to our team. 
 
 The COVID-19 pandemic precipitated an abrupt end to many of the catalysts of global growth over the past decade, and underpins a paradigm shift in portfolio asset allocation. Positive equity-bond correlation and a simultaneous drawdown in both asset classes in 2022 have encouraged investors to seek additional sources 
 of yield, capital appreciation, and diversification. 
 
-Sean understands the need for diversification but is struggling to determine his portfolio allocation, and would like to seek your team’s advice on a strategic asset allocation that will enable him to achieve his goals. 
+The client understands the need for diversification but is struggling to determine his portfolio allocation, and would like to seek your team’s advice on a strategic asset allocation that will enable him to achieve his goals. 
 
 #### Part II
 
